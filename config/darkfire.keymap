@@ -46,7 +46,7 @@
                  //  4,0      1      2       3     4     5         6                             7         8       9      10        11        12         13       14
                  &kp LSHIFT  &kp Z  &kp X  &kp C  &kp V  &kp B   &trans                        &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT  &kp UP  &kp PG_DN  
                  //  5,0         1         2         3          4       5        6               7               8         9        10         11       12
-                 &kp LCTRL  &kp LGUI  &kp LALT  &kp SPACE    &trans  &trans    &trans        &kp SPACE   &lt 0 RIGHT_ALT  &tog 0  &kp LEFT  &kp DOWN  &kp RIGHT
+                 &kp LCTRL  &kp LGUI  &kp LALT  &kp SPACE    &trans  &trans    &trans        &kp SPACE   &lt 0 RIGHT_ALT  &studio_unlock  &kp LEFT  &kp DOWN  &kp RIGHT
              >;
 
          };
@@ -67,55 +67,7 @@
              >;
          };
 
-         layer_2 {
-             bindings = <
-                 //  0,0      0, 1    0,2       0,3    0, 4     0,5    0,6              7       8       9         10      11      12        13         14      15
-                 &kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6          &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp PSCRN  &kp DEL  &kp INS  
-                 //  1,0          1       2      3      4       5      6               7       8      9      10        11         12         13            14      15
-                 &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans          &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BACKSPACE  &kp HOME  
-                 //  2,0        1      2     3   4        5      6                          7       8     9      10       11        12          13       14        15
-                 &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T    &trans                      &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT  &kp BACKSLASH  &kp END  
-                 //  3,0     1       2      3     4     5        6                             7      8      9     10       11        12       13        14
-                 &kp CAPS  &kp A  &kp S  &kp D  &kp F  &kp G   &trans                        &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp RET  &kp PG_UP  
-                 //  4,0      1      2       3     4     5         6                             7         8       9      10        11        12         13       14
-                 &kp LSHIFT  &kp Z  &kp X  &kp C  &kp V  &kp B   &trans                        &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT  &kp UP  &kp PG_DN  
-                 //  5,0         1         2         3          4       5        6               7               8         9        10         11       12
-                 &kp LCTRL  &kp LGUI  &kp LALT  &kp SPACE    &trans  &trans    &trans        &kp SPACE   &lt 0 RIGHT_ALT  &tog 0  &kp LEFT  &kp DOWN  &kp RIGHT
-             >;
-         };
 
-         layer_3 {
-             bindings = <
-                 //  0,0      0, 1    0,2       0,3    0, 4     0,5    0,6              7       8       9         10      11      12        13         14      15
-                 &kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6          &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp PSCRN  &kp DEL  &kp INS  
-                 //  1,0          1       2      3      4       5      6               7       8      9      10        11         12         13            14      15
-                 &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans          &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BACKSPACE  &kp HOME  
-                 //  2,0        1      2     3   4        5      6                          7       8     9      10       11        12          13       14        15
-                 &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T    &trans                      &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT  &kp BACKSLASH  &kp END  
-                 //  3,0     1       2      3     4     5        6                             7      8      9     10       11        12       13        14
-                 &kp CAPS  &kp A  &kp S  &kp D  &kp F  &kp G   &trans                        &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp RET  &kp PG_UP  
-                 //  4,0      1      2       3     4     5         6                             7         8       9      10        11        12         13       14
-                 &kp LSHIFT  &kp Z  &kp X  &kp C  &kp V  &kp B   &trans                        &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT  &kp UP  &kp PG_DN  
-                 //  5,0         1         2         3          4       5        6               7               8         9        10         11       12
-                 &kp LCTRL  &kp LGUI  &kp LALT  &kp SPACE    &trans  &trans    &trans        &kp SPACE   &lt 0 RIGHT_ALT  &tog 0  &kp LEFT  &kp DOWN  &kp RIGHT
-             >;
-         };
 
-         layer_4 {
-             bindings = <
-                 //  0,0      0, 1    0,2       0,3    0, 4     0,5    0,6              7       8       9         10      11      12        13         14      15
-                 &kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6          &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp PSCRN  &kp DEL  &kp INS  
-                 //  1,0          1       2      3      4       5      6               7       8      9      10        11         12         13            14      15
-                 &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans          &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BACKSPACE  &kp HOME  
-                 //  2,0        1      2     3   4        5      6                          7       8     9      10       11        12          13       14        15
-                 &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T    &trans                      &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT  &kp BACKSLASH  &kp END  
-                 //  3,0     1       2      3     4     5        6                             7      8      9     10       11        12       13        14
-                 &kp CAPS  &kp A  &kp S  &kp D  &kp F  &kp G   &trans                        &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp RET  &kp PG_UP  
-                 //  4,0      1      2       3     4     5         6                             7         8       9      10        11        12         13       14
-                 &kp LSHIFT  &kp Z  &kp X  &kp C  &kp V  &kp B   &trans                        &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT  &kp UP  &kp PG_DN  
-                 //  5,0         1         2         3          4       5        6               7               8         9        10         11       12
-                 &kp LCTRL  &kp LGUI  &kp LALT  &kp SPACE    &trans  &trans    &trans        &kp SPACE   &lt 0 RIGHT_ALT  &tog 0  &kp LEFT  &kp DOWN  &kp RIGHT
-             >;
-         };
      };
 };
